@@ -1,0 +1,23 @@
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+.inner {
+    padding: 0 20px;
+    height: 100%;
+}
+
+video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.dark {
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+}

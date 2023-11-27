@@ -1,0 +1,28 @@
+#footer {
+    background: #000;
+    position: relative;
+    color: #fff;
+    padding: 0 100px;
+
+    .footer-area {
+        display: flex;
+        font-size: 14px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ft-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 58px 0;
+    }
+
+    .ft-logo {
+        img {
+            width: 193px;
+            display: block;
+        }
+    }
+    .copy {
+        margin-top: 10px;
+    }
+}
