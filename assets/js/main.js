@@ -208,7 +208,7 @@ slide3ItemList.forEach((a, i) => {
     slide3List.to(
         a,
         {
-            x: -440 * i,
+            x: -472 * i,
         },
         "a"
     );
